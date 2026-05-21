@@ -1,0 +1,56 @@
+/* 📌 Global Body Styling */
+body {
+  margin: 0;
+  background-color: #121212 !important; 
+  color: #ffffff !important;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 📌 Navbar Styling */
+.navbar {
+  background-color: #000000 !important;
+  border-bottom: 2px solid #cca43b; 
+}
+
+/* 📌 Nav Links Styling */
+.nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #cca43b !important;
+}
+
+/* 📌 Headings Styling */
+h1, h2, h3 {
+  color: #cca43b !important; 
+}
+
+/* 📌 Buttons Styling */
+button, .btn-primary {
+  background-color: #cca43b !important;
+  border: none !important;
+  color: #000 !important;
+  font-weight: bold !important;
+  transition: transform 0.2s ease, background-color 0.3s ease !important;
+}
+
+button:hover, .btn-primary:hover {
+  background-color: #e5b842 !important;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+/* 📸 PREMIUM HOVER ZOOM EFFECT FOR IMAGES */
+.hover-zoom {
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.06) !important;
+  cursor: pointer;
+}
